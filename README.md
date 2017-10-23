@@ -20,7 +20,6 @@
             <li><strong>Avril 2015 - Février 2017:</strong> Employée de service polyvalente à Auchan Olivet (45) : Mise en rayon</li>
             <li><strong>2010-2011:</strong> Stagiaire au Conservatoire d'Orléans et à l'école de musique de La Source</li>
         </ul>
-        
     <h2>Mes compétences</h2>
         #Informatique:
         <ul>
@@ -42,7 +41,6 @@
             <li>Gestion de projets, travail en équipe</li>
             <li>Rédaction d'articles</li>
         </ul>
-
     <h2>Mes centres d'intérêts</h2>
         <ul>
             <li>#Musique: <ul> <li>Jouer de la basse</li>
