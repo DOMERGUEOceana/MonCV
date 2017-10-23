@@ -30,12 +30,12 @@
             <li>Codage: HTML5 et CSS</li>
             <li>Montage audio: Audacity</li>
         </ul>
-        #Langues
+        #Langues:
         <ul>
             <li>Français: langue maternelle</li>
             <li>Anglais: Niveau avancé</li>
         </ul>
-        #Divers
+        #Divers:
         <ul>
             <li>Emission radio: Interview, montage, reportages</li>
             <li>Gestion de projets, travail en équipe</li>
