@@ -1,3 +1,52 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body
+{
+	background-color: #ffd700;
+	color: black;
+	font-family: "AppleGaramond";
+	scr: url("AppleGaramond.ttf") format(".ttf");
+	font-weight: bold;
+}
+
+
+h1
+{
+	color: darkgreen;
+	text-align: center;
+	font-family: "Tox Typewriter";
+	src: url("Tox Typewriter.ttf") format(".ttf");
+
+}
+
+h2
+{
+	color:darkred;
+	font-family: "DK Honeyguide Caps";
+	src: url("DK Honeyguide Caps.otf") format(".otf");	
+	font-weight: bold;
+}
+
+h3
+{
+	color: darkred;
+	font-family: "DK Honeyguide Caps";
+	src: url("DK Honeyguide Caps.otf") format(".otf");	
+	font-weight: bold;		
+}
+
+.hashtag
+{
+	color: olive;
+}
+
+#mail
+{
+	text-align: center;
+}
+
+#photocv
+{
+	text-align: center;
+}
