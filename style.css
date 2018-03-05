@@ -3,23 +3,23 @@
 
 body
 {
-	background-color: #ffd700;
+	background-color: rgba(255,215,0,1.00);
 	color: black;
 	font-family: "AppleGaramond";
 	scr: url("AppleGaramond.ttf") format(".ttf");
 	font-weight: bold;
+	animation-name: background;
+	animation-duration: 5s;
+	animation-iteration-count: 4;
 }
 
-
-h1
-{
-	color: darkgreen;
-	text-align: center;
-	font-family: "Tox Typewriter";
-	src: url("Tox Typewriter.ttf") format(".ttf");
-
+@keyframes background {
+	0% {background-color: rgba(255,215,0,1.00)}
+	25% {background-color: rgba(255,215,0,0.74)}
+	50% {background-color: rgba(255,215,0,0.59)}
+	75% {background-color: rgba(255,215,0,0.74)}
+	100% {background-color: rgba(255,215,0,1.00)}
 }
-
 h2
 {
 	color:darkred;
@@ -33,12 +33,12 @@ h3
 	color: darkred;
 	font-family: "DK Honeyguide Caps";
 	src: url("DK Honeyguide Caps.otf") format(".otf");	
-	font-weight: bold;		
+	font-weight: bold;	
 }
 
 .hashtag
 {
-	color: olive;
+	color: #2f00c0;
 }
 
 #mail
@@ -46,7 +46,122 @@ h3
 	text-align: center;
 }
 
-#photocv
+.photocv
 {
-	text-align: center;
+	width: 200px;
+	height: 355px;
+	cursor:zoom-in;
 }
+
+#photo {text-align: center;}
+
+#photo img {
+ 	transition: width 2s, height 2s, transform 2s;
+	filter: grayscale(0%)
+}
+
+#photo img:hover {
+	transform: rotate(360deg);
+	filter: grayscale(100%)
+}
+
+#competenceslangues
+{
+	display: flex;
+}
+
+.lol
+{
+	width: 50%;
+}
+
+a.mail:link {
+	color:darkred;
+}
+a.mail:visited {
+	color: blueviolet;
+}
+a.mail:hover {
+	color:orangered;
+}
+
+#titre {
+	color: #2f00c0 ;
+	font-family: "Tox Typewriter";
+	src: url("Tox Typewriter.ttf") format(".ttf");
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border:medium #2f00c0 groove;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px black;
+	width: 300px;
+	height: 40px;
+	margin: auto;
+	padding: 5px;
+	animation-name: color;
+	animation-duration: 5s;
+}
+
+
+@keyframes color {
+	from {color:#ffd700;}
+	to {color:#2f00c0;}
+}
+
+.button {
+	display: inline-flex;
+	justify-content: center;
+ 	padding:10px 16px;
+	font-size: 14px;
+ 	cursor: pointer;	
+ 	text-decoration: none;
+	font-family: "AppleGaramond";
+	scr: url("AppleGaramond.ttf") format(".ttf");
+	font-weight: bold;
+ 	outline: none;
+	color:white;
+	background-color: black;
+ 	border: none;
+ 	border-radius: 12px;
+ 	box-shadow: 0 7px #464646;
+	width: 65px;
+}
+#button {
+	text-align: right;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.button:hover {
+	background-color: black;
+}
+
+.button:active {
+  background-color: black;
+  box-shadow: 0 3px #565656;
+  transform: translateY(4px);
+}
+
+a.button:link {
+	color:white;
+	text-decoration: none;
+}
+
+a.button:visited {
+	color:white;
+	text-decoration: none;
+}
+
+a.button:hover {
+	color:darkred;
+	text-decoration: none;
+}
+
+.Jquery h3 {
+    cursor:pointer;
+}
+
